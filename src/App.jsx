@@ -28,7 +28,7 @@ function App() {
     const fullQuery = `${queryValue.current} ${categoryKeyword}`.trim();
 
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=${fullQuery}&page=${pageNumber.current}&pageSize=${PAGE_SIZE}&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`,
+      `/api/news?q=${fullQuery}&page=${pageNumber.current}&pageSize=${PAGE_SIZE}`,
     );
 
     const data = await response.json();
