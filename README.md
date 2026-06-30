@@ -1,5 +1,7 @@
 # 📰 NewsFeed App
 
+🔗 **[Live Demo](https://newsfeed-app-beta.vercel.app)**
+
 A React-based news aggregator that fetches and displays live news articles using the [NewsAPI](https://newsapi.org/). Built as part of a front-end development learning journey, with custom features added on top of the original course project.
 
 ## ✨ Features
